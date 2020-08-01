@@ -1,0 +1,68 @@
+Proyecto final: facturacion de servicios telefonicos post pago.
+
+- Un CLIENTE puede tener varios numeros.
+- TIPOS DE NUMEROS:
+	-Personal: el cliente paga las llamadas que realiza, 
+				excepto las llamadas a numero 800(las paga el dueño del numero)
+				y las llamadas a numeros 900(tarifa especial por minuto).
+				
+				Se asocian a 3 tipos de TARIFA:
+					-Economico(regular,familiar).
+					-MedioCaro(regular,familiar).
+					-Premium(regular,familiar).
+					Las tarifas PERSONALES de asocian a DETALLES DE TARIFA:
+						-Tarifa base.
+						-Cantidad de minutos de tarifa base.
+						-Cantidad megas para internet en la tarifa base.
+						-Costo minuto adicional a la tarifa base(horario regular).
+						-Costo minuto adicional a la tarifa base(horario nocturno).
+						-Costo de un mega adicional a tarifa base.
+						-Costo recargo si no paga factura(Se aplica a la factura del siguiente mes).
+						-Recargo adicional para uso familiar de llamadas telefonicas.
+						
+	-Numero 800: 
+	-Numero 900:
+	-Numeros 800 y 900: 
+		-Hay 3 tipos:
+			-locales:
+				-Se asocian a clientes de la empresa Z(la nuestra).
+				-Se asocian con un solo tipo de tarifa(Tarifa 800 y Tarifa 900) que incluye el costo por minuto.
+			-De empresaX y empresaY:
+				-Se asocian a un cliente alambrado(EmpresaX y empresaZ).
+				-Se asocian a tarifas:
+					-Tarifa 800 Empresa X.
+					-Tarifa 800 Empresa Y.
+					-Tarifa 900 Empresa X.
+					-Tarifa 900 Empresa Y.
+				
+-Otros detalles que se aplican a todo tipo de tarifa:
+	-IVA(13).
+	-911(1300).
+	-Llamadas al 110(20 colones/min).
+
+-Horario nocturno: 11pm-6pm (ES 6 AM?) y el costo del minuto es menor al costo en horario regular.
+
+-Existen 3 EMPRESAS TELEFONICAS:
+	-X: 
+		-Numeros inician con 7.
+	-Y:
+		-Numeros inician con 6.
+	-Z(la nuestra):
+		-Numeros inician con 8.
+		
+-Existen  acuerdos entre las empresas anteriores(esto no importa):
+	-Se debe hacer un corte mensual(5 de cada mes):
+		-resumen total de minutos(salida y entrada) de telefonos(personales,800 0 900).
+
+-Tarifas:
+		-800 y 900: 
+			-Se asocian con un elemento detalle de la tarifa: costo del minuto.
+		-Si una tarifa incluye recargo familiar, llamadas entre familiares directos son de tiempo ilimitado:
+			-Familiares directos: padres,hijos,hermanos.
+
+-El cierre para la facturacion de una cuenta del telefono se hacecada mes, y se hace el dia correspondiente 
+al dia que se firmo el contrato.(si se firmo 30, el 30 de cada mes se cierra factura).
+
+-Llamadas se facturan el dia que termina la llamada, si cubrio los dos horarios(nocturno y regular), se cobra tarifa regular.
+ 
+			
