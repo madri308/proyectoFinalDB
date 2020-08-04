@@ -69,19 +69,20 @@
   <ItemGroup>
     <Content Include="Js\jquery-3.5.1.min.js" />
     <Content Include="Js\jquery-ui.min.js" />
+    <Content Include="Js\mainPage.js" />
     <Content Include="Styles\jquery-ui.min.css" />
-    <Content Include="Styles\LoginPage.css" />
+    <Content Include="Styles\mainPage.css" />
     <Content Include="Web.config" />
-    <Content Include="WebPages\loginPage.aspx" />
+    <Content Include="WebPages\mainPage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebPages\loginPage.aspx.cs">
-      <DependentUpon>loginPage.aspx</DependentUpon>
+    <Compile Include="WebPages\mainPage.aspx.cs">
+      <DependentUpon>mainPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebPages\loginPage.aspx.designer.cs">
-      <DependentUpon>loginPage.aspx</DependentUpon>
+    <Compile Include="WebPages\mainPage.aspx.designer.cs">
+      <DependentUpon>mainPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

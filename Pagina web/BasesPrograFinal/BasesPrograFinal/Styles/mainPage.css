@@ -1,0 +1,174 @@
+﻿/* CSS mas generales */
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#form1 {
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.mainContainer {
+    background: #fff;
+    overflow: hidden;
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.tableHeader {
+    font-size: 10pt;
+    width: 100%;
+    border-collapse: collapse;
+    height: 50px;
+    font-family: Lato-Bold;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #6c7ae0;
+    border-color: white;
+}
+
+.divGridContainer {
+    overflow: auto;
+    height: 90%;
+}
+
+    .divGridContainer td {
+        font-family: Lato-Regular;
+        font-size: 15px;
+        color: black;
+        line-height: 1.4;
+    }
+
+    .divGridContainer tr:nth-child(even) {
+        background-color: #f8f6ff;
+    }
+
+
+.grid {
+    text-align: center;
+    width: 100%;
+    border-color: transparent;
+}
+
+.botonInicio {
+    background-color: #6c7ae0;
+    color: #fff;
+    border: none;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Poppins-Bold;
+    outline-width: 0px;
+    padding: 5px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS para el div donde se digita el numero de telefono */
+
+#divConsulta {
+    display: flex;
+    flex-direction: column;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 5%;
+    padding: 77px 55px 33px 55px;
+    height: 60%;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.spanLabel {
+    font-family: Poppins-Bold;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+
+#txtBoxNumeroDeTelefono {
+    border: none;
+    border-bottom: solid;
+    outline-width: 0;
+    color: #555555;
+}
+
+#labelNumeroDeTelefono {
+    order: -1;
+    padding-left: 5px;
+    transition: all 0.3s ease-in;
+    transform: translateY(150px);
+    pointer-events: none;
+    color: #555555;
+}
+
+#botonConsultarNumero {
+    margin-top: 100px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+/* CSS para tabla de facturas */
+
+.column1.factura {
+    width: 16%;
+}
+
+.column2.factura {
+    width: 16%;
+}
+
+.column.factura {
+    width: 16%;
+}
+
+.column4.factura {
+    width: 16%;
+}
+
+.column5.factura {
+    width: 16%;
+}
+
+.column6.factura {
+    width: 16%;
+}
+
+/* CSS para la tabla de detalle de factura */
+
+.column1.detalle {
+    width: 16%;
+}
+
+.column2.detalle {
+    width: 16%;
+}
+
+.column3.detalle {
+    width: 16%;
+}
+
+.column4.detalle {
+    width: 16%;
+}
+
+.column5.detalle {
+    width: 16%;
+}
+
+.column6.detalle {
+    width: 16%;
+}
