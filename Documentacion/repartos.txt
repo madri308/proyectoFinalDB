@@ -1,0 +1,7 @@
+Esteban Madrigal:
+	a. Llenado de datos.
+	b. Simulacion de Procesos.
+	c. SP Transaccional de facturacion.
+Esteban Torrer:
+	d. SP Transaccional para realizar cierre de telefono no local.
+	e. Capa logica
