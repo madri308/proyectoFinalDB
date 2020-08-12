@@ -91,6 +91,8 @@ BEGIN
 		EXEC [dbo].[SP_ProcesaDatosMegas] @Datos,@MinDate
 		DELETE @Datos
 
+		
+
 	SET @MinDate = dateadd(d,1,@MinDate) --INCREMENTA LA FECHA
 	
 END

@@ -38,7 +38,7 @@ AS
 						WHERE (C.Identificacion = 'X' AND LEFT(@NumeroA,1) = 7) 
 						OR (C.Identificacion = 'Y' AND LEFT(@NumeroA,1) = 6)
 					END
-					ELSE IF LEFT(@NumeroA,1) = 7 --EMPRESA Z LA NUESTRA
+					ELSE IF LEFT(@NumeroA,1) = 8 --EMPRESA Z LA NUESTRA
 					BEGIN
 						SELECT * FROM [Cliente]
 					END
